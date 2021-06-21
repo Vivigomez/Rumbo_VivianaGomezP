@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background:url(../img/bg-header.png);
+    background-size: cover;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+} 
+
+nav .logo{
+    width: 30%;
+    display: inline-block;
+}  
+
+nav ul{
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+    border-bottom: 2px solid transparent;
+} 
+
+nav ul li:hover {
+    border-bottom: 2px solid white;
+} 
+
+nav ul li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+} 
+
+#hero {
+    text-align: center;
+    padding-top: 150px;
+} 
+
+#hero img {
+    transition: .4s;
+} 
+
+#hero img:hover {
+   transform: scale(1.2) rotate(-360deg); 
+} 
+
+#hero h2 {
+    font-size: 50px;
+    color: #e8f00c;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+} 
+
+#hero p {
+    color: white;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+} 
+
+#hero button{
+    background: #e8f00c;
+    padding: 6px 28px;
+    font-size: 30px;
+    color: #999;
+    border-radius: 10px;
+    border: 0 transparent;
+    margin: 8%;
+    transition: .4s;
+} 
+
+#hero button:hover {
+    transform: scale(.8);
+} 
+
+#planes{
+    width: 100%;
+    background: #ffffff;
+    padding: 120px 0px;
+    text-align: center;
+}
+
+#planes .container h2{
+    font-size: 45px;
+}
+
+#planes .container p{
+    font-size: 20px;
+}
+
+#planes .container .row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+#planes .container .row .item-planes{
+    position: relative;
+}
+
+#planes .container .row .item-planes h2{
+    color: #e8f00c;
+    font-size: 28px;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    right: 0;
+}
+
+#destinos{
+    width: 100%;
+    background:url(../img/bg-destinos.png);
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 12px;
+}
+
+#destinos .container .row{
+    display: flex;
+    justify-content: space-around;
+} 
+
+#destinos .container h2{
+    color: #e8f00c;
+    font-size: 45px;
+} 
+
+#destinos .container .row .item-destinos{
+    color: #ffffff;
+    font-size: 24px;
+} 
+
+#destinos .container .row .item-destinos img{
+    transition: .2s;
+} 
+
+#destinos .container .row .item-destinos:hover img{
+    transform: rotate(30deg);
+} 
+
+/* Inicio estilos de contacto */
+
+#contacto{
+    background:#e8f00c;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+} 
+
+#contacto h2{
+    font-size: 45px;
+    text-transform: uppercase;
+} 
+
+#contacto p{
+    font-size: 20px;
+} 
+
+#contacto .container .row .campo-f{
+    width: 300px;
+    padding: 8px 14px;
+    margin: 10px 33px;
+    font-size: 20px;
+} 
+
+#contacto .container .row select{
+    width: 332px !important;
+    color: #757575;
+}
+
+#contacto .container form button{
+    background: #898d0e;
+    color: #ffffff;
+    padding: 9px 60px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 40px;
+}   
+
+footer{
+    background: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 0 80px;
+    font-size: 22px;
+} 
+
